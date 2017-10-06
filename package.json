@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot --content-base public/build/"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +24,8 @@
     "vuex": "^2.3.1",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
   }
 }
