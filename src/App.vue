@@ -2,16 +2,16 @@
     <div class="container">
         Welcome to App Component.
         <div>
-            <FirstComponent></FirstComponent>
+            <BoardComponent></BoardComponent>
         </div>
     </div>
 </template>
 
 <script>
-import FirstComponent from './FirstComponent.vue'
+import BoardComponent from './BoardComponent.vue'
     export default {
         components: {
-            FirstComponent
+            BoardComponent
         }
     }
 </script>
