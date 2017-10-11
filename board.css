@@ -1,0 +1,17 @@
+.board-container {
+   width: 200px;
+   display: inline-block;
+   transform: rotate(90deg);
+}
+.board-game {
+   display: inline-block;
+}
+
+.board-cell {
+   display: inline-block;
+   width: 30px;
+}
+body {
+   text-align: center;
+
+}
