@@ -20,6 +20,9 @@ Docs are spread out between v1 and v2 v1.vuejs.org and vuejs.org/v2/ plus alread
 - [x] 6. Add disk to a row for player two
 - [x] 7. if row is full then not able to add to row
 - [ ] 8. Create winning game logic
+    - [ ] a. Checking on disk insert and from the disk, out
+    - [ ] b. check left hold row col++
+    - [ ] b. check right hold row col--    I think I just realised this won't work will need to check entire board.
 
 
 
